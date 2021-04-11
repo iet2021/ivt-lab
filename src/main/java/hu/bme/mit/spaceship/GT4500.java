@@ -86,6 +86,7 @@ public class GT4500 implements SpaceShip {
 
         break;
         //branch-A
+        //branch-B
     }
 
     return firingSuccess;
