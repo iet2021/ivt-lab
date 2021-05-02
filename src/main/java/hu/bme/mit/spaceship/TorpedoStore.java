@@ -14,9 +14,10 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  private Random generator = new Random();
+  private Random generator;
 
   public TorpedoStore(int numberOfTorpedos){
+    generator = new Random();
     this.torpedoCount = numberOfTorpedos;
 
     // update failure rate if it was specified in an environment variable
